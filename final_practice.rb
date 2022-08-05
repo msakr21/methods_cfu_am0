@@ -4,7 +4,7 @@
 def greeting(someone)
   if someone.include?("Obi-wan")or someone.include?("Obiwan") or someone.include?("Obi wan") or someone.include?("Obi Wan") or someone.include?("Obi-wan") or someone.include?("ObiWan") or someone.include?("Kenobi") or someone.include?("kenobi")
     puts "Why, hello there!"    #Gotta get your greetings right!
-  elsif someone.empty? == true
+  elsif                         #modified this upon review
   puts "Hiya!"
   #else
     #puts "Hiya, #{someone}!"
