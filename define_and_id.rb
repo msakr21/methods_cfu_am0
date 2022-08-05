@@ -10,18 +10,17 @@
 # YOU DO the rest:
 
 
+# The return value is a true or false boolean if the method finds the text in parenthesis. In this case true
 "Hello World".include?("Hello")
 
-
+# The return value is a true or false boolean if the method finds the text in parenthesis at the end of the string object. In this case false
 "Hello World".end_with?("Hello")
 
-
+#False
 "Hello World".end_with?("rld")
 
-
+#True
 12.even?
 
-
+#19
 18.next
-
-
